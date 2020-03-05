@@ -1,10 +1,15 @@
--var head_url = '';
--var head_title = '«»';
--var head_description = '';
+-var head_url = 'https://rojkova.mastervision.su/biology-of-consciousness/';
+-var head_title = '«Биология сознания. Изучите 5 законов сохранения здоровья!»';
+-var head_description = 'Бесплатный 3-дневный онлайн-мастер-класс Татьяны Рожковой';
 -var head_img = 'img/banner.jpg';
 -var styles = 'css/styles.min.css';
 -var fav_ico = 'favicon.ico';
 -var fav_png = 'favicon.png';
+
+mixin b(cl,p)
+	button.button(class=cl data-toggle="modal" data-target="#Modal")=p
+mixin gt(cl,h3)
+	h3.general-title(class=cl)=h3
 
 <!DOCTYPE html>
 html(lang="ru")
@@ -13,7 +18,16 @@ html(lang="ru")
 		include pug/scripts/head_scripts
 	body
 		include pug/scripts/body_top_scripts
-		include pug/scripts
-		include pug/scripts/chat
+		include pug/main/1.main.pug
+		include pug/main/2.for.pug
+		include pug/main/3.reasons.pug
+		include pug/main/4.plan.pug
+		include pug/main/5.lets.pug
+		include pug/main/6.author.pug
+		include pug/main/7.last.pug
+		include pug/main/8.footer.pug
+		include pug/main/9.modal.pug
+		include pug/main/10.politics.pug
+		include pug/main/11.scripts.pug
+		//- include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts
-		//iframe(name="results" style="display:none;")
