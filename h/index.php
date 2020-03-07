@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,14 +6,14 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/"/>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/h/"/>
     <meta property="og:title" content="«Биология сознания. Изучите 5 законов сохранения здоровья!»"/>
     <meta property="og:description" content="Бесплатный 3-дневный онлайн-мастер-класс Татьяны Рожковой"/>
-    <meta property="og:image" content="https://rojkova.mastervision.su/biology-of-consciousness/img/banner.jpg"/>
+    <meta property="og:image" content="https://<?=$url;?>/biology-of-consciousness/img/banner.jpg"/>
     <title>«Биология сознания. Изучите 5 законов сохранения здоровья!». Бесплатный 3-дневный онлайн-мастер-класс Татьяны Рожковой</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
-    <link rel="stylesheet" href="css/styles.min.css"/>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
+    <link rel="stylesheet" href="../css/styles.min.css"/>
     <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-350620-gJCgg"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt=""/></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script>
@@ -52,7 +53,7 @@
         <div class="mail-container">
           <h3 class="mail-container-title">Регистрируйтесь на онлайн-мастер-класс “БИОЛОГИЯ СОЗНАНИЯ”</h3>
           <p class="switch-text hide"></p>
-          <form class="form form-main" action="https://shop.mastervision.su/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru&amp;Contact[id_newsletter]=1191" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+          <form class="form form-main" action="https://shop.mastervision.su/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru&amp;Contact[id_newsletter]=<?=$group_id;?>" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
             <div class="email-block email-block-form">
               <input type="hidden" value="1" name="required_fields[email]"/>
               <input class="input input-mail input-mail-main" name="Contact[email]" type="text" placeholder="Ваш email"/>
@@ -66,11 +67,11 @@
             </div>
             <div style="display: none;">
               <div id="formTypeSpecificVars-1" style="display: none;">
-                <input type="hidden" value="1191" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
+                <input type="hidden" value="<?=$group_id;?>" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
               </div><!-- API код канала рекламы -->
               <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_1" name="Contact[id_advertising_channel_page]"/>
-              <input type="hidden" name="formId" value="329"/>
-              <input type="hidden" name="formVc" value="556780783"/>
+              <input type="hidden" name="formId" value="<?=$form_id;?>"/>
+              <input type="hidden" name="formVc" value="<?=$form_vs;?>"/>
             </div>
           </form>
         </div>
@@ -123,7 +124,7 @@
                   <p class="reason-text">Занятия объединяют все имеющиеся знания о современной психосоматике</p>
                 </div>
           </div>
-          <div class="col-md-4 col-sm-4"><img class="reasons-img" src="img/images/reasons-img.png" alt="5 причин прийти на мастер-класс"/></div>
+          <div class="col-md-4 col-sm-4"><img class="reasons-img" src="../img/images/reasons-img.png" alt="5 причин прийти на мастер-класс"/></div>
           <div class="col-md-4 col-sm-4">
                 <div class="reason reason-4">
                   <h4 class="reason-title">- 04</h4>
@@ -204,7 +205,7 @@
                   </p>
                 </div>
           </div>
-          <div class="col-md-4 col-sm-4"><img class="lets-img" src="img/images/lets-img.png" alt="Мастер-класс позволит вам"/></div>
+          <div class="col-md-4 col-sm-4"><img class="lets-img" src="../img/images/lets-img.png" alt="Мастер-класс позволит вам"/></div>
           <div class="col-md-4 col-sm-4">
                 <div class="lets-item lets-item-5">
                   <p class="lets-item-text"><span>Узнают, как возникает</span>заболевание и понять механизм появления симптома в теле
@@ -285,7 +286,7 @@
               <div class="modal-col">
                 <h3 class="modal-title switch-title">Регистрируйтесь прямо сейчас!</h3>
                 <p class="switch-text hide"></p>
-                <form class="form form-modal" action="https://shop.mastervision.su/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru&amp;Contact[id_newsletter]=1191" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+                <form class="form form-modal" action="https://shop.mastervision.su/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru&amp;Contact[id_newsletter]=<?=$group_id;?>" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
                   <div class="email-block email-block-modal">
                     <input type="hidden" value="1" name="required_fields[email]"/>
                     <input class="input input-mail input-mail-modal" name="Contact[email]" type="text" placeholder="Ваш email"/>
@@ -299,11 +300,11 @@
                   </div>
                   <div style="display: none;">
                     <div id="formTypeSpecificVars2" style="display: none;">
-                      <input type="hidden" value="1191" id="form_newsletter_id_newsletter-2" name="Contact[id_newsletter]"/>
+                      <input type="hidden" value="<?=$group_id;?>" id="form_newsletter_id_newsletter-2" name="Contact[id_newsletter]"/>
                     </div><!-- API код канала рекламы -->
                     <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page-2" name="Contact[id_advertising_channel_page]"/>
-                    <input type="hidden" name="formId" value="329"/>
-                    <input type="hidden" name="formVc" value="556780783"/>
+                    <input type="hidden" name="formId" value="<?=$form_id;?>"/>
+                    <input type="hidden" name="formVc" value="<?=$form_vs;?>"/>
                   </div>
                 </form>
               </div>
@@ -363,7 +364,7 @@
         </div>
       </div>
     </div>
-    <script src="js/scripts.min.js"></script><!-- BEGIN JIVOSITE CODE {literal} -->
+    <script src="../js/scripts-2.min.js"></script><!-- BEGIN JIVOSITE CODE {literal} -->
     <script src="//code.jivosite.com/widget.js" data-jv-id="UPm98E8VpR" async="async"></script><!-- {/literal} END JIVOSITE CODE --><!-- AutoWebOffice: UTM or OpenStat Counter -->
     <script type="text/javascript">var url = "https://shop.mastervision.su/?r=api/utmopenstat";</script>
     <script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->

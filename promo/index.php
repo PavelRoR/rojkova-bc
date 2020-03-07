@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/promo/"/>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/promo/"/>
     <meta property="og:title" content="Оставьте свои данные, чтоб скачать дополнительные материалы"/>
     <title>Оставьте свои данные, чтоб скачать дополнительные материалы</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
@@ -52,8 +53,8 @@
             <div style="display: none;">
               <div id="formTypeSpecificVars" style="display: none;"></div><!-- API код канала рекламы --> 
               <input type="hidden" value="0" name="Contact[id_advertising_channel_page]" id="form_newsletter_id_advertising_channel_page"/>
-              <input type="hidden" name="formId" value="330"/>
-              <input type="hidden" name="formVc" value="1102655541"/>
+              <input type="hidden" name="formId" value="<?=$phone_form_id;?>"/>
+              <input type="hidden" name="formVc" value="<?=$phone_form_vs;?>"/>
             </div>
           </form>
         </div><a class="button button-bots" href="../bots/">Не нужны доп.материалы, <br/>завершить регистрацию</a>

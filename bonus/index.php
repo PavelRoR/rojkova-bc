@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,12 +6,13 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/thanks/"/>
-    <meta property="og:title" content="Вы зарегистрированы на мастер-класс «Биология сознания»"/>
-    <title>Вы зарегистрированы на мастер-класс «Биология сознания»</title>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/bonus/"/>
+    <meta property="og:title" content="Почему болят суставы и кости"/>
+    <meta property="og:description" content="Бонус от Татьяны Рожковой"/>
+    <title>Почему болят суставы и кости. Бонус от Татьяны Рожковой</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
-    <link rel="stylesheet" href="../css/promo.min.css"/>
+    <link rel="stylesheet" href="../css/bonus.min.css"/>
     <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-350620-gJCgg"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt=""/></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script>
@@ -28,14 +30,16 @@
     <noscript>
       <div><img src="https://top-fwz1.mail.ru/counter?id=3089960;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru"/></div>
     </noscript><!-- //Rating@Mail.ru counter -->
-    <section id="main">
+    <section class="bonus-main" id="main">
       <div class="container">
         <header><a class="header-logo" href="https://mastervision.su/" target="_blank"></a>
           <div class="contacts"><a class="contact contact-tel" href="callto:8-499-346-79-46" target="_blank">8-499-346-79-46</a><a class="contact contact-skype" href="https://join.skype.com/invite/gkwrZmJPOtuf" target="_blank">support-mastervision</a><a class="contact contact-email" href="mailto:info@mastervision.su" target="_blank">span info@mastervision.su</a></div>
         </header>
-        <h1 class="main-title">Вы зарегистрированы на мастер-класс <span>«Биология сознания»</span></h1><a class="button button-thanks" href="https://drive.google.com/drive/folders/1hHrgB1lG6R9wmzF4wtAIizXvkPqI6ewW?usp=sharing" target="_blank">Забрать доп.материалы</a>
-        <h2 class="main-subtitle">Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс<span>+</span><span>Бонус: «Почему болят суставы и кости»</span></h2>
-        <div class="bots"><a class="bots-link bots-link-vk" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=vk" target="_blank">Вконтакте</a><a class="bots-link bots-link-tg" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=tg" target="_blank">Telegram</a><a class="bots-link bots-link-wa hide" href="" target="_blank">WhatsApp</a><a class="bots-link bots-link-ok" href="https://bot.mastervision.su/bot/public/link?s=ok" target="_blank">Одноклассники</a></div>
+        <p class="pre">Бонус от Татьяны Рожковой</p>
+        <h1 class="main-title">Почему болят суставы и кости</h1>
+        <div class="video-wrapper video-wrapper-main">
+          <iframe src="https://www.youtube.com/embed/PYHUvZi2VJg?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen="allowfullscreen"></iframe>
+        </div>
       </div>
     </section>
     <footer>
@@ -47,7 +51,7 @@
         <p>ИП Кудряшов Александр Анатольевич, Тюмень, проезд Летний, 9а, ИНН 720410077658, ОГРН 315723200065100</p>
       </div>
     </footer>
-    <script src="../js/thanks.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
+    <script src="../js/bonus.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
     <script type="text/javascript">var url = "https://shop.mastervision.su/?r=api/utmopenstat";</script>
     <script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->
   </body>

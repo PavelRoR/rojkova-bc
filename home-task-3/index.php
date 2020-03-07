@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,11 +6,11 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/home-task-2/"/>
-    <meta property="og:title" content="Система фаз жизни"/>
-    <meta property="og:description" content="2 домашнее задание от Татьяны Рожковой"/>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/home-task-3/"/>
+    <meta property="og:title" content="Чувствование другого человека"/>
+    <meta property="og:description" content="3 домашнее задание от Татьяны Рожковой"/>
     <meta property="fb:app_id" content="2030481470529055"/>
-    <title>Система фаз жизни. 2 домашнее задание от Татьяны Рожковой</title>
+    <title>Чувствование другого человека. 3 домашнее задание от Татьяны Рожковой</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
     <link rel="stylesheet" href="../css/bonus.min.css"/>
@@ -40,11 +41,11 @@
         <header><a class="header-logo" href="https://mastervision.su/" target="_blank"></a>
           <div class="contacts"><a class="contact contact-tel" href="callto:8-499-346-79-46" target="_blank">8-499-346-79-46</a><a class="contact contact-skype" href="https://join.skype.com/invite/gkwrZmJPOtuf" target="_blank">support-mastervision</a><a class="contact contact-email" href="mailto:info@mastervision.su" target="_blank">span info@mastervision.su</a></div>
         </header>
-        <p class="pre">2 домашнее задание от Татьяны Рожковой</p>
-        <h1 class="main-title">Система фаз жизни</h1>
+        <p class="pre">3 домашнее задание от Татьяны Рожковой</p>
+        <h1 class="main-title">Чувствование другого человека</h1>
         <p class="main-info">Старт онлайн-мастер-класса: <span>26 марта, в 19:00(мск)</span></p>
         <div class="video-wrapper video-wrapper-main">
-          <iframe src="https://www.youtube.com/embed/Z1lOmd0W85E?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen="allowfullscreen"></iframe>
+          <iframe src="https://www.youtube.com/embed/hFV3Lzf6M7s?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen="allowfullscreen"></iframe>
         </div>
       </div>
     </section>
@@ -61,7 +62,7 @@
           </div>
           <div class="col-md-6 col-sm-6">
             <div id="fb">
-              <div class="fb-comments" data-href="https://rojkova.mastervision.su/biology-of-consciousness/home-task-2/" data-width="100%" data-numposts="15" data-order-by="reverse_time"></div>
+              <div class="fb-comments" data-href="https://<?=$url;?>/biology-of-consciousness/home-task-3/" data-width="100%" data-numposts="15" data-order-by="reverse_time"></div>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,23 +6,18 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/home-task-3/"/>
-    <meta property="og:title" content="Чувствование другого человека"/>
-    <meta property="og:description" content="3 домашнее задание от Татьяны Рожковой"/>
-    <meta property="fb:app_id" content="2030481470529055"/>
-    <title>Чувствование другого человека. 3 домашнее задание от Татьяны Рожковой</title>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/thanks/"/>
+    <meta property="og:title" content="Вы зарегистрированы на мастер-класс «Биология сознания»"/>
+    <title>Вы зарегистрированы на мастер-класс «Биология сознания»</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
-    <link rel="stylesheet" href="../css/bonus.min.css"/>
+    <link rel="stylesheet" href="../css/promo.min.css"/>
     <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-350620-gJCgg"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt=""/></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-130434463-1');</script><!-- Facebook Pixel Code -->
     <script>!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '2406475009380573'); fbq('track', 'PageView');</script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2406475009380573&amp;ev=PageView&amp;noscript=1"/></noscript><!-- End Facebook Pixel Code -->
-    <script src="//vk.com/js/api/openapi.js?153"></script>
-    <script>VK.init({apiId: 6314801,onlyWidgets: true});</script>
-    <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-350620-gJCgg"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script>
   </head>
   <body><!-- Yandex.Metrika counter -->
     <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter35450015 = new Ya.Metrika({ id:35450015, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
@@ -33,38 +29,14 @@
     <noscript>
       <div><img src="https://top-fwz1.mail.ru/counter?id=3089960;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru"/></div>
     </noscript><!-- //Rating@Mail.ru counter -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.12&appId=2030481470529055&autoLogAppEvents=1';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
     <section id="main">
       <div class="container">
         <header><a class="header-logo" href="https://mastervision.su/" target="_blank"></a>
           <div class="contacts"><a class="contact contact-tel" href="callto:8-499-346-79-46" target="_blank">8-499-346-79-46</a><a class="contact contact-skype" href="https://join.skype.com/invite/gkwrZmJPOtuf" target="_blank">support-mastervision</a><a class="contact contact-email" href="mailto:info@mastervision.su" target="_blank">span info@mastervision.su</a></div>
         </header>
-        <p class="pre">3 домашнее задание от Татьяны Рожковой</p>
-        <h1 class="main-title">Чувствование другого человека</h1>
-        <p class="main-info">Старт онлайн-мастер-класса: <span>26 марта, в 19:00(мск)</span></p>
-        <div class="video-wrapper video-wrapper-main">
-          <iframe src="https://www.youtube.com/embed/hFV3Lzf6M7s?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen="allowfullscreen"></iframe>
-        </div>
-      </div>
-    </section>
-    <section id="feedback">
-      <div class="container">
-        <h3 class="general-title general-title-feedback">Ваши вопросы к Татьяне пишите <span>в формах ниже:</span></h3>
-        <div class="row">
-          <div class="col-md-6 col-sm-6">
-            <div id="vk">
-              <div id="vk_comments">
-                <script type="text/javascript">VK.Widgets.Comments("vk_comments", { limit: 15,  attach: 0, autoPublish: 1 });</script>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div id="fb">
-              <div class="fb-comments" data-href="https://rojkova.mastervision.su/biology-of-consciousness/home-task-3/" data-width="100%" data-numposts="15" data-order-by="reverse_time"></div>
-            </div>
-          </div>
-        </div>
+        <h1 class="main-title">Вы зарегистрированы на мастер-класс <span>«Биология сознания»</span></h1><a class="button button-thanks" href="https://drive.google.com/drive/folders/1hHrgB1lG6R9wmzF4wtAIizXvkPqI6ewW?usp=sharing" target="_blank">Забрать доп.материалы</a>
+        <h2 class="main-subtitle">Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс<span>+</span><span>Бонус: «Почему болят суставы и кости»</span></h2>
+        <div class="bots"><a class="bots-link bots-link-vk" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=vk" target="_blank">Вконтакте</a><a class="bots-link bots-link-tg" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=tg" target="_blank">Telegram</a><a class="bots-link bots-link-wa hide" href="" target="_blank">WhatsApp</a><a class="bots-link bots-link-ok" href="https://bot.mastervision.su/bot/public/link?s=ok" target="_blank">Одноклассники</a></div>
       </div>
     </section>
     <footer>
@@ -76,7 +48,7 @@
         <p>ИП Кудряшов Александр Анатольевич, Тюмень, проезд Летний, 9а, ИНН 720410077658, ОГРН 315723200065100</p>
       </div>
     </footer>
-    <script src="../js/bonus.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
+    <script src="../js/thanks.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
     <script type="text/javascript">var url = "https://shop.mastervision.su/?r=api/utmopenstat";</script>
     <script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->
   </body>

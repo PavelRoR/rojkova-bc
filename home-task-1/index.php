@@ -1,3 +1,4 @@
+<?php require_once('../config.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,12 +6,14 @@
     <meta name="viewport" content="width=device=width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://rojkova.mastervision.su/biology-of-consciousness/bots/"/>
-    <meta property="og:title" content="Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс"/>
-    <title>Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс</title>
+    <meta property="og:url" content="https://<?=$url;?>/biology-of-consciousness/home-task-1/"/>
+    <meta property="og:title" content="Переживания"/>
+    <meta property="og:description" content="1 домашнее задание от Татьяны Рожковой"/>
+    <meta property="fb:app_id" content="2030481470529055"/>
+    <title>Переживания. 1 домашнее задание от Татьяны Рожковой</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
-    <link rel="stylesheet" href="../css/promo.min.css"/>
+    <link rel="stylesheet" href="../css/bonus.min.css"/>
     <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-350620-gJCgg"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script>
     <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt=""/></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script>
@@ -38,8 +41,31 @@
         <header><a class="header-logo" href="https://mastervision.su/" target="_blank"></a>
           <div class="contacts"><a class="contact contact-tel" href="callto:8-499-346-79-46" target="_blank">8-499-346-79-46</a><a class="contact contact-skype" href="https://join.skype.com/invite/gkwrZmJPOtuf" target="_blank">support-mastervision</a><a class="contact contact-email" href="mailto:info@mastervision.su" target="_blank">span info@mastervision.su</a></div>
         </header>
-        <h2 class="main-subtitle main-subtitle-bots">Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс<span>+</span><span>Бонус: «Почему болят суставы и кости»</span></h2>
-        <div class="bots"><a class="bots-link bots-link-vk" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=vk" target="_blank">Вконтакте</a><a class="bots-link bots-link-tg" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=tg" target="_blank">Telegram</a><a class="bots-link bots-link-wa hide" href="" target="_blank">WhatsApp</a><a class="bots-link bots-link-ok" href="https://bot.mastervision.su/bot/public/link?s=ok" target="_blank">Одноклассники</a></div>
+        <p class="pre">1 домашнее задание от Татьяны Рожковой</p>
+        <h1 class="main-title">Переживания</h1>
+        <p class="main-info">Старт онлайн-мастер-класса: <span>26 марта, в 19:00(мск)</span></p>
+        <div class="video-wrapper video-wrapper-main">
+          <iframe src="https://www.youtube.com/embed/0qlJIRy_xPc?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen="allowfullscreen"></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="feedback">
+      <div class="container">
+        <h3 class="general-title general-title-feedback">Ваши вопросы к Татьяне пишите <span>в формах ниже:</span></h3>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div id="vk">
+              <div id="vk_comments">
+                <script type="text/javascript">VK.Widgets.Comments("vk_comments", { limit: 15,  attach: 0, autoPublish: 1 });</script>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div id="fb">
+              <div class="fb-comments" data-href="https://<?=$url;?>/biology-of-consciousness/home-task-1/" data-width="100%" data-numposts="15" data-order-by="reverse_time"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <footer>
@@ -51,7 +77,7 @@
         <p>ИП Кудряшов Александр Анатольевич, Тюмень, проезд Летний, 9а, ИНН 720410077658, ОГРН 315723200065100</p>
       </div>
     </footer>
-    <script src="../js/thanks.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
+    <script src="../js/bonus.min.js"></script><!-- AutoWebOffice: UTM or OpenStat Counter -->
     <script type="text/javascript">var url = "https://shop.mastervision.su/?r=api/utmopenstat";</script>
     <script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->
   </body>
