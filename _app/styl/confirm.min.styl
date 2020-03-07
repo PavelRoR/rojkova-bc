@@ -1,0 +1,267 @@
+@font-face {
+	font-family: 'GilroyBlack';
+	src: url('../fonts/GilroyBlack.eot');
+	src: url('../fonts/GilroyBlack.eot') format('embedded-opentype'),
+		 url('../fonts/GilroyBlack.woff2') format('woff2'),
+		 url('../fonts/GilroyBlack.woff') format('woff'),
+		 url('../fonts/GilroyBlack.ttf') format('truetype'),
+		 url('../fonts/GilroyBlack.svg#GilroyBlack') format('svg');
+	font-display: fallback;
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GilroyMedium';
+	src: url('../fonts/GilroyMedium.eot');
+	src: url('../fonts/GilroyMedium.eot') format('embedded-opentype'),
+		 url('../fonts/GilroyMedium.woff2') format('woff2'),
+		 url('../fonts/GilroyMedium.woff') format('woff'),
+		 url('../fonts/GilroyMedium.ttf') format('truetype'),
+		 url('../fonts/GilroyMedium.svg#GilroyMedium') format('svg');
+	font-display: fallback;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/Muller.eot');
+	src: url('../fonts/Muller.eot') format('embedded-opentype'),
+		 url('../fonts/Muller.woff2') format('woff2'),
+		 url('../fonts/Muller.woff') format('woff'),
+		 url('../fonts/Muller.ttf') format('truetype'),
+		 url('../fonts/Muller.svg#Muller') format('svg');
+	font-display: fallback;
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MullerItalic';
+	src: url('../fonts/MullerItalic.eot');
+	src: url('../fonts/MullerItalic.eot') format('embedded-opentype'),
+		 url('../fonts/MullerItalic.woff2') format('woff2'),
+		 url('../fonts/MullerItalic.woff') format('woff'),
+		 url('../fonts/MullerItalic.ttf') format('truetype'),
+		 url('../fonts/MullerItalic.svg#MullerItalic') format('svg');
+	font-display: fallback;
+	font-weight: normal;
+	font-style: italic
+}
+@font-face {
+	font-family: 'MullerBold';
+	src: url('../fonts/MullerBold.eot');
+	src: url('../fonts/MullerBold.eot') format('embedded-opentype'),
+		 url('../fonts/MullerBold.woff2') format('woff2'),
+		 url('../fonts/MullerBold.woff') format('woff'),
+		 url('../fonts/MullerBold.ttf') format('truetype'),
+		 url('../fonts/MullerBold.svg#MullerBold') format('svg');
+	font-display: fallback;
+	font-weight: bold;
+	font-style: normal;
+}
+
+@import '../_css/bootstrap.min.css'
+
+*
+	margin 0
+	padding 0
+	outline none
+body
+	font-size: 18px
+	font-family: 'Muller',sans-serif
+	color #000
+	background-color #fff
+a
+	color: #000
+	&:focus
+		outline: 0
+		text-decoration none
+	&:hover
+		text-decoration none
+h1,h2,h3,h4,h5,h6
+	font-weight normal
+	margin 0
+button
+	border none
+section
+header
+footer
+	width 100%
+	display block
+
+#confirm
+	padding 0 0 20px
+	min-height calc(100vh - 50px)
+	background-image url(../img/confirm/confirm-img.png)
+	background-repeat no-repeat
+	background-position: bottom right -200px
+	.container
+		position relative
+header
+	padding 10px 0
+	overflow hidden
+	margin-bottom: 20px
+.header-logo
+	width 120px
+	height 53px
+	float left
+	background-image url(../img/confirm/confirm-logo.png)
+	background-repeat no-repeat
+	background-position: center
+	background-size contain
+.contacts
+	float: right
+	line-height: 46px
+	text-align: right
+.contact
+	font-size: 16px
+	color #000
+	display: inline-block
+	margin-left: 23px
+	&:focus
+		color #000
+		text-decoration: none
+	&:hover
+		color #000
+		text-decoration: underline
+	&&-phone
+		margin-left: 0
+.main-title
+	position absolute
+	top 40px
+	right 240px
+	width 458px
+	height 406px
+	background-image url(../img/confirm/title-bg.png)
+	background-repeat no-repeat
+	background-position: center
+	text-align: center
+	font-size: 48px
+	font-family: 'GilroyBlack', sans-serif
+	color #fff
+	text-transform uppercase
+	padding 110px 90px 0
+	line-height: 43px
+	span
+		display block
+		font-size: 22px
+		font-family: 'GilroyMedium', sans-serif
+		line-height: 23px
+.main-text
+	font-size: 20px
+	line-height: 25px
+	width 100%
+	span
+		color #7c136c
+		font-family: 'MullerBold', sans-serif
+	&:nth-of-type(1)
+		max-width 415px
+		span
+			display block
+	&:nth-of-type(2)
+		margin 50px 0
+		max-width 475px
+		span
+			text-transform: uppercase
+	&:nth-of-type(3)
+		font-size: 22px
+		font-family: 'MullerBold', sans-serif
+		max-width 565px
+		text-transform uppercase
+	&:nth-of-type(4)
+		font-family: 'MullerItalic', sans-serif
+		margin 30px 0
+		max-width 565px
+.mail
+	margin-right: 10px
+	display inline-block
+	background-repeat no-repeat
+	background-position: center
+	// background-size contain
+	height 31px
+	width 70px
+	&&-yandex
+		background-image url(../img/confirm/yandex.png)
+	&&-gmail
+		background-image url(../img/confirm/gmail.png)
+	&&-mailru
+		background-image url(../img/confirm/mailru.png)
+	&&-rambler
+		background-image url(../img/confirm/rambler.png)
+footer
+	background-color: rgba(#eee,.35)
+	padding 15px 0
+	text-align: center
+	font-family: 'Gilroy', sans-serif
+	font-size: 14px
+@media screen and (min-width 1920px)
+	header
+		margin-bottom 50px
+	.main-title
+		right 200px
+@media screen and (min-width 2295px)
+	.container
+		width 1400px
+	.main-title
+		top 50px
+		right 440px
+@media screen and (max-width 1199px)
+	.main-title
+		right 0
+@media screen and (max-width 991px)
+	#confirm
+		background-image: none
+	.main-title
+		position: static
+		margin 0 auto 40px
+	.main-text:nth-of-type(1)
+	.main-text:nth-of-type(2)
+	.main-text:nth-of-type(3)
+	.main-text:nth-of-type(4)
+		max-width 100%
+	.main-text:nth-of-type(2)
+		margin 30px 0
+@media screen and (max-width 767px)
+	.header-logo
+		display block
+		width 100px
+		height 44px
+		float: none
+		margin 0 auto 5px
+	.contacts
+		line-height: 1
+		text-align: center
+		float: none
+@media screen and (max-width 485px)
+	.header-logo
+		width 70px
+		height 31px
+	.main-title
+		width 100%
+		padding 30% 20% 0
+		font-size: 32px
+		line-height: 1
+		background-size contain
+		span
+			margin-top: 10px
+	.main-text
+	.main-text:nth-of-type(3)
+		font-size: 18px
+	.main-text:nth-of-type(2)
+	.main-text:nth-of-type(4)
+		margin 20px 0
+@media screen and (max-width 385px)
+	.contact
+		display: block
+		margin-left: 0
+		font-size: 14px
+	.main-title
+		padding 0
+		height auto
+		font-size: 30px
+		color #7c136c
+		background-image: none
+		margin-bottom: 20px
+		text-align: left
+	.mail
+		width 50%
+		margin-right: 0
