@@ -1,0 +1,10 @@
+section#main.bonus-main
+	.container
+		include ../0.header.pug
+		p.pre=head_description
+		h1.main-title=head_title
+		if date
+			p.main-info Старт онлайн-мастер-класса: 
+				span=date
+		.video-wrapper.video-wrapper-main
+			iframe(src="https://www.youtube.com/embed/"+video+"?rel=0&autoplay=1&mute=1" allowfullscreen)

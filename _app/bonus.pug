@@ -1,0 +1,20 @@
+-var head_url = 'https://rojkova.mastervision.su/biology-of-consciousness/bonus/';
+-var head_title = 'Почему болят суставы и кости';
+-var head_description = 'Бонус от Татьяны Рожковой';
+-var video = 'PYHUvZi2VJg';
+-var styles = '../css/bonus.min.css';
+//- -var fb_content = '2030481470529055'
+-var fav_ico = '../favicon.ico'
+-var fav_png = '../favicon.png'
+
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		include pug/head
+		include pug/scripts/head_scripts
+	body
+		include pug/scripts/body_top_scripts
+		include pug/bonus/1.main.pug
+		include pug/bonus/3.footer.pug
+		script(src="../js/bonus.min.js")
+		include pug/scripts/body_bottom_scripts
