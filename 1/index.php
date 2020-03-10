@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device=width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta property="og:url" content="https://<?=$url;?>/1/" />
-    <meta property="og:title" content="«Механика Генных Ключей»" />
-    <meta property="og:description"
-        content="Бесплатный 3-х дневный онлайн-мастер-класс Анны Ролевой и Вероники Юриной" />
+    <meta property="og:title" content="«Биология сознания. Изучите 5 законов сохранения здоровья!»"/>
+    <meta property="og:description" content="Бесплатный 3-дневный онлайн-мастер-класс Татьяны Рожковой"/>
     <meta property="og:image" content="https://<?=$url;?>/img/banner.jpg" />
-    <title>«Механика Генных Ключей». Бесплатный 3-х дневный онлайн-мастер-класс Анны Ролевой и Вероники Юриной</title>
+    <title>«Биология сознания. Изучите 5 законов сохранения здоровья!». Бесплатный 3-дневный онлайн-мастер-класс Татьяны Рожковой</title>
     <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
     <!-- Global site tag (gtag.js) - Google Analytics -->

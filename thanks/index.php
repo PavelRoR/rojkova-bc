@@ -34,7 +34,7 @@
         <header><a class="header-logo" href="https://mastervision.su/" target="_blank"></a>
           <div class="contacts"><a class="contact contact-tel" href="callto:8-499-346-79-46" target="_blank">8-499-346-79-46</a><a class="contact contact-skype" href="https://join.skype.com/invite/gkwrZmJPOtuf" target="_blank">support-mastervision</a><a class="contact contact-email" href="mailto:info@mastervision.su" target="_blank">span info@mastervision.su</a></div>
         </header>
-        <h1 class="main-title">Вы зарегистрированы на мастер-класс <span>«Биология сознания»</span></h1><a class="button button-thanks" href="https://drive.google.com/drive/folders/1hHrgB1lG6R9wmzF4wtAIizXvkPqI6ewW?usp=sharing" target="_blank">Забрать доп.материалы</a>
+        <h1 class="main-title">Вы зарегистрированы на мастер-класс <span>«Биология сознания»</span></h1><a class="button button-thanks" href="https://drive.google.com/drive/folders/1qp60f5ur8Ztnii-7NHdbmv6LomxZeF5U?usp=sharing" target="_blank">Забрать доп.материалы</a>
         <h2 class="main-subtitle">Регистрируйтесь в удобный для вас мессенджер, чтобы оставаться на связи и не пропустить мастер-класс<span>+</span><span>Бонус: «Почему болят суставы и кости»</span></h2>
         <div class="bots"><a class="bots-link bots-link-vk" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=vk" target="_blank">Вконтакте</a><a class="bots-link bots-link-tg" href="https://bot.mastervision.su/bot/public/link?t=a&amp;i=83&amp;s=tg" target="_blank">Telegram</a><a class="bots-link bots-link-wa hide" href="" target="_blank">WhatsApp</a><a class="bots-link bots-link-ok" href="https://bot.mastervision.su/bot/public/link?s=ok" target="_blank">Одноклассники</a></div>
       </div>

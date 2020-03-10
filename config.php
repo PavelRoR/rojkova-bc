@@ -38,8 +38,9 @@ else if ($url == 'rojkova.mymv.ru') {
     $phone_form_id =$phone_forms[1]['form_id'];
     $phone_form_vs =$phone_forms[1]['form_vs'];
 }
-if (($url.$url2 == 'mastervision.su/biology-of-consciousness/h/')||($url.$url2 == 'mastervision.su/biology-of-consciousness/1/')){
+if (($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/h/')||($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/1/')){
     header('location: https://rojkova.mymv.ru/biology-of-consciousness/1/');
-    // echo $url2;
 }
+// echo $url.$url2;
+// echo 'Тест';
 ?>
