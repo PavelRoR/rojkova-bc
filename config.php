@@ -12,6 +12,11 @@ $main_forms = array(
         'group' => '1233',
         'form_id' => '331',
         'form_vs' => '2471503236'
+    ),
+    array(
+        'group' => '1263',
+        'form_id' => '341',
+        'form_vs' => '654227183'
     )
 );
 $phone_forms= array(
@@ -24,7 +29,7 @@ $phone_forms= array(
         'form_vs' => '1037992797'
     )
 );
-if (($url == 'rojkova.biology-of-consciousness')||($url == 'rojkova.mastervision.su/')) {
+if (($url == 'rojkova.biology-of-consciousness')||($url == 'rojkova.mastervision.su')) {
     $group_id =$main_forms[0]['group'];
     $form_id =$main_forms[0]['form_id'];
     $form_vs =$main_forms[0]['form_vs'];
@@ -38,9 +43,16 @@ else if ($url == 'rojkova.mymv.ru') {
     $phone_form_id =$phone_forms[1]['form_id'];
     $phone_form_vs =$phone_forms[1]['form_vs'];
 }
+if (($url.$url2 == 'rojkova.mymv.ru/biology-of-consciousness/a/')||($url.$url2 == 'rojkova.mymv.ru/biology-of-consciousness/b/')){
+    $group_id =$main_forms[2]['group'];
+    $form_id =$main_forms[2]['form_id'];
+    $form_vs =$main_forms[2]['form_vs'];
+}
 if (($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/h/')||($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/1/')){
     header('location: https://rojkova.mymv.ru/biology-of-consciousness/1/');
 }
-// echo $url.$url2;
-// echo 'Тест';
+if (($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/a/')||($url.$url2 == 'rojkova.mastervision.su/biology-of-consciousness/b/')){
+    header('location: https://rojkova.mymv.ru/biology-of-consciousness/b/');
+}
+
 ?>

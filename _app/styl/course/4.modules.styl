@@ -1,0 +1,43 @@
+#modules
+	padding 50px 0 0
+.module
+	position relative
+	padding 30px 0 0 400px
+	margin-bottom: 50px
+	background-repeat no-repeat
+	background-position: top 30px left 30px
+	background-size: 340px auto
+	&:before
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 170px;
+		height: 100px;
+		border-top: 5px solid 		#00116e;
+		border-left: 5px solid 		#00116e;
+	&-1
+		background-image url(../img/images/day-1-img.jpg)
+	&-2
+		background-image url(../img/images/day-2-img.jpg)
+	&-3
+		background-image url(../img/images/day-3-img.jpg)
+	&-title
+		font-size: 30px
+		font-family: GBd
+		text-transform: uppercase
+	&-subtitle
+		margin 5px 0 15px
+		font-size: 20px
+		font-family: G
+		text-transform: uppercase
+		small
+			text-transform: none
+			display block
+	&-list
+		li
+			margin-bottom: 10px
+			list-style: none
+			span
+				font-family: GBd
