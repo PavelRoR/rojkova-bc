@@ -20,20 +20,23 @@ $(document).ready(function () {
             switch_text = $('.switch-text'),
             currDate = new Date(),
             startDate = new Array(
-                new Date("February 24 2020 18:30 UTC+3"),
-                new Date("February 25 2020 18:30 UTC+3"),
-                new Date("February 26 2020 18:30 UTC+3")),
+                new Date("March 26 2020 18:30 UTC+3"),
+                new Date("March 27 2020 18:30 UTC+3"),
+                new Date("March 28 2020 18:30 UTC+3")),
             endDate = new Array(
-                new Date("February 24 2020 21:00 UTC+3"),
-                new Date("February 25 2020 21:00 UTC+3"),
-                new Date("February 26 2020 21:00 UTC+3")),
+                new Date("March 26 2020 21:00 UTC+3"),
+                new Date("March 27 2020 21:00 UTC+3"),
+                new Date("March 28 2020 21:00 UTC+3")),
             rooms = new Array(
-                'https://start.bizon365.ru/room/18087/secrets_runes_d1',
-                'https://start.bizon365.ru/room/18087/secrets_runes_d2',
-                'https://start.bizon365.ru/room/18087/secrets_runes_d3');
+                '',
+                '',
+                '');
 
         function roomSwitch() {
+            $('#main').addClass('switch-main');
+            $('.mail-container').addClass("switch-mail-container");
             switch_title.html('А Вы записались на БЕСПЛАТНЫЙ ВЕБИНАР?<br>ЖДЕМ ТОЛЬКО ВАС!').css('lineHeight', '1.2');
+
             switch_text.removeClass('hide').html('<span class="hurryup">Скорее ЗАХОДИТЕ прямо СЕЙЧАС на вебинар!</span><br>Присоединяйтесь к интенсиву и окунитесь в мир практической философии! Познайте этот мир и себя в нём!');
             button.text('Зайти!');
             $('.modal-col:first-of-type').addClass('switch-col');

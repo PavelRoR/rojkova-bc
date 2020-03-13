@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="mail-container">
-          <h3 class="mail-container-title">Регистрируйтесь на онлайн-мастер-класс “БИОЛОГИЯ СОЗНАНИЯ”</h3>
+          <h3 class="mail-container-title switch-title">Регистрируйтесь на онлайн-мастер-класс “БИОЛОГИЯ СОЗНАНИЯ”</h3>
           <p class="switch-text hide"></p>
           <form class="form form-main" action="https://shop.mastervision.su/?r=personal/newsletter/sub/add&amp;id=3568&amp;lg=ru&amp;Contact[id_newsletter]=<?=$group_id;?>" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
             <div class="email-block email-block-form">
