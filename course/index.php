@@ -1,3 +1,4 @@
+<?php require_once('vars.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -35,7 +36,7 @@
         </header>
         <h1 class="main-title"><small>обучающий курс</small>«Биология сознания»
         </h1>
-        <p class="main-info">Старт курса: <span>NN месяца, в 19:00(мск)</span></p>
+        <p class="main-info">Старт курса: <span>3 апреля, в 19:00(мск)</span></p>
         <p class="main-info">Автор курса: <span>Татьяна Рожкова</span></p><a class="button button-main" href="#prices">Записаться</a>
       </div>
     </section>
@@ -153,7 +154,7 @@
       <div class="container">
         <h3 class="general-title">Курс позволит вам:</h3>
         <div class="row">
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-6">
             <ul class="lets-list">
               <li>по-новому взглянуть на мир;</li>
               <li>прочувствовать связь между телом и психикой;</li>
@@ -163,8 +164,8 @@
               <li>существенно повысить свой уровень профессионализма и пополнить свой багаж знаний новым пониманием устройства человека, получить инструменты и более эффективно решать задачи клиентов;</li>
             </ul>
           </div>
-          <div class="col-md-4 col-sm-4"><img src="../img/images/reasons-img.png" alt="Курс позволит вам:"/></div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-0"><img class="lets-img" src="../img/images/reasons-img.png" alt="Курс позволит вам:"/></div>
+          <div class="col-md-4 col-sm-6">
             <ul class="lets-list">
               <li>получить знания и навыки, которые можно легко применять в повседневной жизни, а также в профессиональной практике;</li>
               <li>стать специалистом Новейшей системной психосоматики, базирующейся на теории ГНМ, и использовать эти знания для работы с людьми;</li>
@@ -190,10 +191,11 @@
                   <h4 class="packet-body-title">Основы новой системной психосоматики по работе с биологией сознания<small>9 занятий + 3 занятия с ответами на вопросы</small></h4>
                   <p class="more-button" data-toggle="modal" data-target="#modal1">подобнее</p>
                 </div>
-                <div class="packet-footer">
-                  <p class="cost cost-full">Стоимость:<span>15 400р.</span></p>
-                  <p class="cost cost-sale">Скидка:<span id="sale-1">1 500р.</span></p>
-                  <p class="cost cost-today">Стоимость сегодня:<span id="today-1">13 900р.</span></p><a class="button" href="https://shop.mastervision.su/?r=ordering/cart/as1&amp;id=4606&amp;clean=true&amp;lg=ru" target="_blank" id="link-1">Выбрать</a>
+                <div class="packet-footer"><?php if($now<$dates[2]){;?>
+                  <p class="cost cost-full">Стоимость:<span><?=$full1;?></span></p>
+                  <p class="cost cost-sale">Скидка:<span id="sale-1"><?=$sale1;?></span></p>
+                  <p class="cost cost-today">Стоимость сегодня:<span id="today-1"><?=$today1;?></span></p><a class="button" href="<?=$link1;?>" target="_blank" id="link-1">Выбрать</a><? } else {;?>
+                  <p class="cost cost-full">Стоимость:<span class="unbroken"><?=$full1;?></span></p><a class="button" href="<?=$link1;?>" target="_blank">Выбрать</a><?php };?>
                 </div>
               </div>
             </div>
@@ -206,10 +208,11 @@
                   <h4 class="packet-body-title">Навыки  по работе с травматическим опытом<small>ВСЁ, что входит в первый модуль + ещё 12 занятий + ещё 4 занятия с ответами на вопросы</small></h4>
                   <p class="more-button" data-toggle="modal" data-target="#modal2">подобнее</p>
                 </div>
-                <div class="packet-footer">
-                  <p class="cost cost-full">Стоимость:<span>31 900р.</span></p>
-                  <p class="cost cost-sale">Скидка:<span id="sale-2">3 000р.</span></p>
-                  <p class="cost cost-today">Стоимость сегодня:<span id="today-2">28 900р.</span></p><a class="button" href="https://shop.mastervision.su/?r=ordering/cart/as1&amp;id=4610&amp;clean=true&amp;lg=ru" target="_blank" id="link-2">Выбрать</a>
+                <div class="packet-footer"><?php if($now<$dates[2]){;?>
+                  <p class="cost cost-full">Стоимость:<span><?=$full2;?></span></p>
+                  <p class="cost cost-sale">Скидка:<span id="sale-2"><?=$sale2;?></span></p>
+                  <p class="cost cost-today">Стоимость сегодня:<span id="today-2"><?=$today2;?></span></p><a class="button" href="<?=$link2;?>" target="_blank" id="link-2">Выбрать</a><? } else {;?>
+                  <p class="cost cost-full">Стоимость:<span class="unbroken"><?=$full2;?></span></p><a class="button" href="<?=$link2;?>" target="_blank">Выбрать</a><?php };?>
                 </div>
               </div>
             </div>
@@ -222,23 +225,24 @@
                   <h4 class="packet-body-title">Работа с заболеваниями. Навыки по работе с психосоматикой заболеваний через психосоматический подход в контексте ГНМ<small>ВСЁ, что входит в первый и второй модули + ещё 15 занятий + ещё 5 занятий с ответами на вопросы</small></h4>
                   <p class="more-button" data-toggle="modal" data-target="#modal3">подобнее</p>
                 </div>
-                <div class="packet-footer">
-                  <p class="cost cost-full">Стоимость:<span>53 900р.</span></p>
-                  <p class="cost cost-sale">Скидка:<span id="sale-3">6 000р.</span></p>
-                  <p class="cost cost-today">Стоимость сегодня:<span id="today-3">47 900р.</span></p><a class="button" href="https://shop.mastervision.su/?r=ordering/cart/as1&amp;id=4614&amp;clean=true&amp;lg=ru" target="_blank" id="link-3">Выбрать</a>
+                <div class="packet-footer"><?php if($now<$dates[2]){;?>
+                  <p class="cost cost-full">Стоимость:<span><?=$full3;?></span></p>
+                  <p class="cost cost-sale">Скидка:<span id="sale-3"><?=$sale3;?></span></p>
+                  <p class="cost cost-today">Стоимость сегодня:<span id="today-3"><?=$today3;?></span></p><a class="button" href="<?=$link3;?>" target="_blank" id="link-3">Выбрать</a><? } else {;?>
+                  <p class="cost cost-full">Стоимость:<span class="unbroken"><?=$full3;?></span></p><a class="button" href="<?=$link3;?>" target="_blank">Выбрать</a><?php };?>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div><?php if($now<$dates[2]):?>
         <div class="prepayment">
           <h4 class="prepayment-title">Акция!!!</h4>
-          <p class="prepayment-text">Платите 1 000р., бонусом получаете <span id="prepayment-bonus">1 000р. </span><br/>На счет зачисляется <span id="prepayment-credited">2 000р.</span></p><a class="button" href="https://shop.mastervision.su/?r=ordering/cart/as1&amp;id=4618&amp;clean=true&amp;lg=ru" target="_blank" id="prepayment-link">Оплатить 1 000р.</a>
+          <p class="prepayment-text">Платите 1 000р., бонусом получаете <span id="prepayment-bonus">1 000р. </span><br/>На счет зачисляется <span id="prepayment-credited">2 000р.</span></p><a class="button" href="<?=$prep_link;?>" target="_blank" id="prepayment-link">Оплатить 1 000р.</a>
         </div>
-        <div class="timer">
+        <div class="timer hide">
           <h4 class="timer-title">Скидка уменьшится через:</h4>
           <div class="clock"></div>
-        </div>
+        </div><?php endif;?>
       </div>
     </section>
     <section id="author">
